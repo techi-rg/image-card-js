@@ -1,0 +1,63 @@
+# 🖼️ Image Card 
+
+This is a simple **JavaScript-based Image Card Project** built as part of a Coding Ninjas challenge.  
+It allows users to browse through a set of images using **Prev / Next** buttons with a loader animation.  
+Users can also add new images dynamically with a name & URL, which are then previewed for 1 second.
+
+---
+
+## 🚀 Features
+
+- ✅ **Prev / Next Navigation**  
+  - Displays a loader for 1 second before changing the image.  
+  - Loops through the image list cyclically.
+
+- ✅ **Dynamic Image Addition**  
+  - Add a new image with name & URL.
+  - Shows a mini preview card for 1 second after adding.
+
+- ✅ **Clean & Minimal UI**  
+  - Uses simple CSS for layout.
+  - Works smoothly on all modern browsers.
+
+---
+
+## 📂 Project Structure
+
+project-folder/
+│
+├── index.html # Main HTML file
+├── style.css # CSS styling
+└── script.js # JavaScript logic (prev/next/add functionality)
+
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5** – Structure of the project  
+- **CSS3** – Styling (Loader, Buttons, Layout)  
+- **JavaScript (Vanilla JS)** – Dynamic functionality  
+
+---
+
+## 📸 Screenshots
+
+### 🖼️ Main Interface
+
+
+
+
+---
+
+
+
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/your-username/image-card-project.git
+Navigate to the project folder
+
+bash
+Copy code
+cd image-card-project
+Open index.html in any modern browser
