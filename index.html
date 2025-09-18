@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="textCenterAlign">Image Album</h1>
+    <main>
+        <!-- displayArea -->
+        <section class="displayArea">
+            <!-- imageCard -->
+            <figure class="imageCard">
+                <img id="image" alt="photo" loading="lazy" />
+                <figcaption class="description"></figcaption>
+            </figure>
+
+            <!-- loader -->
+            <div class="loader" style="display:none;">Loading...</div>
+
+            <!-- controls -->
+            <div class="controls">
+                <button onclick="previousImageCard()">prev</button>
+                <button onclick="nextImageCard()">next</button>
+            </div>
+        </section>
+
+        <!-- rightSideArea -->
+        <aside class="rightSideArea">
+            <h3>Add a new image</h3>
+
+            <!-- addImageForm -->
+            <form class="addImageForm" onsubmit="addNewImage(event)">
+                <input type="text" id="imgAddressInput" name="imageUrl"
+                    placeholder="Copy and Paste here image Address" />
+                <input type="text" id="imgNameInput" name="imageName" placeholder="Name The Image" />
+                <button type="submit">Add Image</button>
+            </form>
+
+            <!-- previewArea -->
+            <div class="previewArea">
+                <button onclick="previewLastAddedImage()">Preview Last One</button>
+            </div>
+        </aside>
+    </main>
+
+<script src="script.js"></script>
+</body>
+
+</html>
